@@ -5,7 +5,7 @@ subtitle: "Covid-19"
 title: ollie.fitness
 description: "Based in Maidstone, Kent. Ollie is a qualified personal trainer offering online coaching and personal training to help his clients conquer they’re fitness dreams."
 ---
-<p>05 / 05 / 2020</p>
+<p>05 . 05 . 2020</p>
 
 At this time exercise and focusing on our health has never been so important. As we stay home to keep ourselves and our loved ones safe from the virus. We can become more inactive neglecting our physical health and in turn our mental health suffers. 
 
