@@ -10,7 +10,8 @@ description: "Get in contact with Ollie to make a booking for a workout or to fi
 ---
 <div>
 <h3>Phone</h3>
-+44 7804 694 203
+<br>
+<a class="number" href="tel:+44 7804 694 203">+44 7804 694 203</a>
 <h3>Social</h3>
 <div class="icons">
 <a href="https://www.instagram.com/olliefitness_/"><svg>
