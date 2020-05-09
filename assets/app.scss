@@ -96,6 +96,8 @@ header {
         color:$white;
         padding-left:$line-global*2;
         padding-top:$line-global;
+        padding-right:$line-global;
+        padding-bottom:$line-global;
         font-family: $header-font;
         
     }
@@ -424,7 +426,7 @@ form {
             z-index:3;
          
             h1 {
-                padding-left:$line-global;
+                padding:$line-global;
             }
 
             .menu-button {
@@ -524,7 +526,7 @@ form {
 
       }
         form {
-            width:280px;
+            width:260px;
             
         }
 
