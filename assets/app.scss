@@ -133,7 +133,7 @@ header {
 .container {
     position: absolute;
     max-width:100%;
-    max-height: 910px;
+    max-height: 1200px;
     margin: $line-global*6 $line-global*2 $line-global*2 $line-global*2;
     background-color:#2DFF76;
 
@@ -206,13 +206,13 @@ header {
     
  
 }
-.four {
-}
+
 
 
 
 .package .description {
     max-width:400px;
+    margin-right:$line-global;
 }
 
 
@@ -548,9 +548,13 @@ form {
 
         
         
-
+        .packages {
+            .four {
+             padding-left:0;
+         }
+     }   
         .package-heading {
-            width:280px;
+            max-width:440px;
                 }
 
 
@@ -560,11 +564,21 @@ form {
     
                 }
 
-                .package {
-                    .four {
-                     padding-left:0;
-                 }
-             }   
+             
+    }
+
+    @media(max-width:420px) {
+        .package {
+            h3 {
+                padding-right:$line-global/2;
+            }
+            .price {
+                padding-right:$line-global;
+            }
+        }
+            .package-heading {
+                width:350px;
+            }
     }
 
     @media(max-width:370px ) {
@@ -578,7 +592,6 @@ form {
     }
       .container {
           position: relative;
-          max-height:940px;
           
 
       }
