@@ -18,7 +18,7 @@ $white :#fff;
 
 
 
-$header-font: 'League Gothic', sans-serif;
+$header-font: 'League Gothic', 'Helvetica' sans-serif;
 $body-font: sans-serif;
 
 $header-size:36px;
@@ -39,7 +39,8 @@ body,h1,h2,h3,h4,ul,li {
 
 h1,h2,h3 {
     font-family:$header-font;
-
+    font-weight:100;
+    font-style: italic;
 }
 
 h3 {
