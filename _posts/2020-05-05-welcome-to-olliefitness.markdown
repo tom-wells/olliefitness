@@ -1,8 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to ollie.fitness"
 date:   2020-05-05 20:52:37 +0100
 categories: jekyll update
+img: /assets/img/Rectangle-29.png
+excerpt: "Hi I'm Ollie and Welcome to ollie.fitness. 
+                      This site is where you can find out all the 
+                      important information you need about what i offer 
+                      as a personal trainer.
+                    
+                      The site has been built and designed by LoTekTom
+                    to bring my inforamtion to you in the fastest and planet
+                friendly way possible "
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

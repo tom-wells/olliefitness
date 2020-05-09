@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <div class="post-container">   
+        {% for post in site.posts limit:4 %}
+          <div class="post">
+              <a href="{{ post.url }}"> 
+                  
+                <img src="{{post.img}}" alt="post"/>
+                <div class="info">
+                  <h3>{{ post.title }}</h3>
+                <p></p> {{ post.excerpt }}
+                  <p class="read-more">READ MORE</p>
+                </div>
+                </a>
+        
+          
+
+             
+          
+
+        {%endfor%}
+    </div>
+
+</html>
