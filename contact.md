@@ -33,7 +33,7 @@ action="https://formspree.io/meqroqbd" method="POST">
 <input type="text" name="Name" Placeholder="Name">
 </label>
 <label name="Email">
-<input type="text" name="_replyto" Placeholder="Email">
+<input type="text" name="Email" Placeholder="Email">
 </label>
 <label name="Service">
 <input type="text" name="Service" Placeholder="Service ( e.g 1-2-1 Personal Training Session )">
