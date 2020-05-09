@@ -40,7 +40,7 @@ action="https://formspree.io/meqroqbd" method="POST">
 </label>
 
 <label name="Message">
-<textarea name="message" placeholder="Message :"></textarea>
+<textarea name="Message" placeholder="Message :"></textarea>
 </label>
 <input type="submit" class="submit" value="Send">
 </form>
