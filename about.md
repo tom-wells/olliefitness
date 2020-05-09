@@ -15,4 +15,4 @@ Ollie understands the far reaching benefits of exercise that he has seen in his 
 
 Within a Session with Ollie to come to understand that training is not just about lifting heavier weights or smashing a personal best. It translates across your life to make you a more confident and successful person.
 
-So what are you waiting for?! Get in touch by email or on social media and join #TeamOFIT members who are transforming their lives as we speak.
+So what are you waiting for?! Get in touch by email or on social media and join <a class="team" href="https://www.instagram.com/explore/tags/olliefitness/">#olliefitness</a>  members who are transforming their lives as we speak.

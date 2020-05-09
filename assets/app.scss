@@ -22,7 +22,7 @@ $header-font: 'League Gothic', Helvetica, sans-serif;
 $body-font: sans-serif;
 
 $header-size:36px;
-$body-font-size: 14px;
+$body-font-size: 16px;
 
 $line-height-global: 1.4;
 
@@ -153,6 +153,11 @@ header {
         padding:$line-global;
         max-width:500px;
         height:100%;
+        .team {
+            color:#000;
+            font-family:$header-font;
+            font-size:24px;
+            margin:0 3px 0 0;        }
         }
 }
 
@@ -377,9 +382,12 @@ form {
         
         .packages {
             grid-template-columns: 1fr;
+            .three {
+                padding-left:55px;
+            }
             .four {
                 padding-top:50px;
-                padding-left:50px;
+                padding-left:100px;
             }
             
         }
@@ -411,7 +419,7 @@ form {
            }
            .packages {
            .four {
-            padding-left:0px;
+            padding-left:50px;
         }
     }   
 
@@ -429,13 +437,13 @@ form {
                 padding:$line-global;
             }
             .button-container{
-                height:40px;
+                height:48px;
                 display:flex;
                 align-items: center;
                 justify-content: center;
                 cursor:pointer;
                 padding:$line-global;
-                margin-top:4px;
+                margin-top:2px;
             
                 }
             
@@ -444,29 +452,29 @@ form {
             .menu-button {
                 display:block;
                 position: relative;
-                width:42px;
+                width:40px;
                 height:5px;
                 background:$white;
 
-                transition:all .4s;
+                transition: ease all .4s;
 
                 &::after,
                 &::before  {
                     content: "";
                     position: absolute;
-                    width:42px;
+                    width:40px;
                     height:5px;
                     background:$white;
                     transition:all .4s;
 
                 }
                 &::after {
-                    top:12px;
+                    top:10px;
 
                 }
 
                 &::before {
-                    bottom:12px;
+                    bottom:10px;
                 }
             }
             .button-container.active {
@@ -474,11 +482,11 @@ form {
                     background:transparent;
 
                     &::after {
-                        transform:rotate(45deg) translate(-10px, -8px);
+                        transform:rotate(45deg) translate(-10px, -5px);
                         background: $white;
                     }
                      &::before {
-                        transform:rotate(-45deg) translate(-10px, 7px);
+                        transform:rotate(-45deg) translate(-10px, 5px);
                         background: $white;
                 }
            
@@ -549,6 +557,13 @@ form {
                     width:315px;
     
                 }
+
+                .packages {
+                    .four,
+                    .three {
+                     padding-left:0;
+                 }
+             }   
     }
 
     @media(max-width:370px ) {
