@@ -428,26 +428,67 @@ form {
             h1 {
                 padding:$line-global;
             }
-
+            .button-container{
+                height:40px;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                cursor:pointer;
+                background:green;
+                padding:$line-global;
+            
+                }
+            
+            
+                
             .menu-button {
                 display:block;
-                position: absolute;
-                top:5px;;
-                right:0;
-                padding:$line-global;
-                cursor:pointer;
+                position: relative;
+                width:42px;
+                height:5px;
+                background:$white;
 
-                div {
-                    background-color:$white;
+                transition:all .4s;
+
+                &::after,
+                &::before  {
+                    content: "";
+                    position: absolute;
                     width:42px;
-                    height:6px;
-                    margin-top:5px;
+                    height:5px;
+                    background:$white;
+                    transition:all .4s;
+
+                }
+                &::after {
+                    top:12px;
+
+                }
+
+                &::before {
+                    bottom:12px;
                 }
             }
+            .button-container.active {
+                .menu-button {
+                    background:transparent;
+
+                    &::after {
+                        transform:rotate(45deg) translate(-10px, -8px);
+                        background: $white;
+                    }
+                     &::before {
+                        transform:rotate(-45deg) translate(-10px, 7px);
+                        background: $white;
+                }
+           
+            }
+        }
             nav {
                 display:none;
             }
         }
+            
 
         .mobile-nav {
             display:block;
