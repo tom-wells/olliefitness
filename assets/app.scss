@@ -467,6 +467,8 @@ form {
                 a {                     
                     margin-top:$line-global;
                     font-family:$header-font;
+                    font-weight:100;
+                    font-style: italic;
                     font-size:64px;
                     color:$white;
                 }
