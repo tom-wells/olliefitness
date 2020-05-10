@@ -15,6 +15,7 @@
 }
 
 $white :#fff;
+$green: #2DFF76;
 
 
 
@@ -135,7 +136,7 @@ header {
     max-width:100%;
     max-height: 1200px;
     margin: $line-global*6 $line-global*2 $line-global*2 $line-global*2;
-    background-color:#2DFF76;
+    background-color:$green;
 
     
     h2 {
@@ -154,12 +155,16 @@ header {
         max-width:500px;
         height:100%;
         .team {
-            color:#000;
+            color:$white;
             font-family:$header-font;
             font-style:italic;
             font-weight:100;
             font-size:24px;
-            margin:0 3px 0 0;        }
+            margin:0 3px 0 0;    
+            width:100%;
+            height:100%;
+            padding:$line-global/4 $line-global/2 $line-global/4 $line-global/4;
+            background-color:#000;    }
         }
 }
 
@@ -169,9 +174,9 @@ header {
 .wide-container {
     position: relative;
     max-width:100%;
-    max-height:2000px;
+    max-height:2400px;
     margin: $line-global*6 $line-global*2 $line-global*2 $line-global*2;
-    background-color:#2DFF76;
+    background-color:$green;
 
     h2 {
         padding:$line-global;
@@ -507,7 +512,7 @@ form {
             position:fixed;
             width:100vw;
             height:100vh;
-            background-color:#2DFF76;
+            background-color:$green;
             z-index:2;
             transform:translateX(100%);
             transition: ease-out 0.5s;
@@ -584,12 +589,22 @@ form {
     }
 
     @media(max-width:370px ) {
+    .packages {
+        .package {
+            .package-heading{
+                width:200px;
+            }
+        }
+    }
       .holder {
         width: 100vw;
         display: flex;
         justify-content: center;
         position: relative;
         align-items: baseline; 
+
+       
+       
 
     }
       .container {
