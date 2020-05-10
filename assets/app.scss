@@ -591,8 +591,13 @@ form {
     @media(max-width:370px ) {
     .packages {
         .package {
+           
             .package-heading{
-                width:200px;
+                max-width:238px;
+                .short {
+                    padding-right:$line-global/2;
+                }
+              
             }
         }
     }
