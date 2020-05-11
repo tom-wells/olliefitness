@@ -7,7 +7,7 @@ description: "Based in Maidstone, Kent. Ollie is a qualified personal trainer of
 ---
 <p>11 . 05 . 2020</p>
 
-At this time exercise and focusing on our health has never been so important. As we stay home to keep ourselves and our loved ones safe from the virus. We can become more inactive neglecting our physical health and in turn our mental health suffers. 
+At this time exercise and focusing on our health has never been so important. As we stay home to keep ourselves and our loved ones safe from the virus. We can start to neglect our physical health and in turn our mental health suffers. 
 
 That is why during this time of the pandemic I am offering discount prices to new and existing clients until <strong>30th June.</strong>
 
