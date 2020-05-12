@@ -203,7 +203,6 @@ header {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 0 $line-global*6;
     grid-row-gap:$line-global*4;
 
     margin:$line-global;
@@ -258,7 +257,7 @@ header {
     background-color:#000;
     top:-90px;
     position: absolute;
-    right:-40px;
+    right:0;
 
 
     h3 {
@@ -625,7 +624,7 @@ form {
              
     }
 
-    @media(max-width:420px) {
+    @media(max-width:425px) {
       
         .packages {
             .four {
@@ -647,7 +646,7 @@ form {
                 padding-right:$line-global/2;
             }
             .price {
-                padding-right:$line-global;
+                padding-right:$line-global/2;
             }
         }
             .package-heading {
