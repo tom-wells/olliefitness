@@ -203,7 +203,7 @@ header {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
+    padding: 0 $line-global*6;
     grid-row-gap:$line-global*4;
 
     margin:$line-global;
@@ -258,18 +258,18 @@ header {
     background-color:#000;
     top:-90px;
     position: absolute;
-    right:0;
+    right:-40px;
 
 
     h3 {
         color:$white;
         width:50px;
         height:50px;
-        top:0;
+        top:10px;
         text-align:center;
-        left:0;
-        transform: translate(25%,35%);
-
+        left:22px;
+        top:17px;
+        position: absolute;
         
     }
 }
@@ -469,10 +469,22 @@ form {
     }
 
     @media(max-width:550px) {
+        .packages {
+
+            padding: 0 0;
 
 
+        .package {
+            margin-top:$line-global*4;
+
+        }
+    }
+        .sticker {
+            right:0;
+        }
         .sticker.long {
             top:-45px;
+            right:0;
         }
 
         header {
@@ -615,15 +627,16 @@ form {
 
     @media(max-width:420px) {
       
-        .sticker {
-            position:relative;
-
-            top:-$line-global;
-            left:0;
-            h3 {
-                transform: translate(35%,35%);
-
+        .packages {
+            .four {
+                margin-top:0;
+                padding-top:0;
             }
+        }
+        .sticker {
+            top:-100px;
+                right:20px;
+            
         }
         .sticker.long {
             top:-$line-global;
@@ -643,18 +656,25 @@ form {
     }
 
     @media(max-width:370px ) {
+
+        .package.four {
+            margin-top:$line-global*4;
+        }
     .packages {
         .package {
-           
+        
             .package-heading{
                 max-width:238px;
+
+                }
                 .short {
                     padding-right:$line-global/2;
                 }
+               
               
             }
         }
-    }
+    
       .holder {
         width: 100vw;
         display: flex;
@@ -664,6 +684,15 @@ form {
 
        
        
+
+    }
+    .sticker {
+        right:-20px;
+    }
+
+    .sticker.long {
+        top:-80px;
+        right:-30px;
 
     }
       .container {
