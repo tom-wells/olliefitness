@@ -2,7 +2,7 @@
 
 layout: default
 subtitle: "Covid-19"
-title: ollie.fitness - Welcome
+title: ollie.fitness
 description: "Based in Maidstone, Kent. Ollie is a qualified personal trainer offering online coaching and personal training to help his clients conquer they’re fitness dreams."
 ---
 <p>11 . 05 . 2020</p>

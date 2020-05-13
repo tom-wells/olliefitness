@@ -23,6 +23,7 @@ $header-font: 'League Gothic', Helvetica, sans-serif;
 $body-font: sans-serif;
 
 $header-size:36px;
+$sub-header-size:24px;
 $body-font-size: 16px;
 
 $line-height-global: 1.4;
@@ -45,14 +46,14 @@ h1,h2,h3 {
 }
 
 h3 {
-    font-size:24px;
+    font-size:$sub-header-size;
 }
 
 a {
     text-decoration:none;
 }
 
-// standing background for each page
+// standard background for each page
 
 body {  
         line-height:$line-height-global;
@@ -75,7 +76,7 @@ body {
 
 }
 
-// Home 
+// Homepage
 
 .intouch {
     color:$white;
@@ -85,7 +86,7 @@ body {
 
 
 
-// Header Styles //
+// Header Styles
 header {
     display:flex;
     width:100%;
@@ -142,14 +143,13 @@ header {
     h2 {
         padding:$line-global;
         font-size:$header-size;
-
-       
     }
 
     h3 {
-        font-size:24px;
+        font-size:$sub-header-size;
         padding-top:$line-global;
     }
+
     .text {
         padding:$line-global;
         max-width:500px;
@@ -162,17 +162,18 @@ header {
             font-family:$header-font;
             font-style:italic;
             font-weight:100;
-            font-size:24px;
+            font-size:$sub-header-size;
             margin:0 3px 0 0;    
             width:100%;
             height:100%;
             padding:$line-global/4 $line-global/2 $line-global/4 $line-global/4;
-            background-color:#000;    }
-        }
+            background-color:#000;  
+          }
+    }
 }
 
 
-// Base background for services and testimonials 
+// wide =container for services and testimonials 
 
 .wide-container {
     position: relative;
@@ -189,14 +190,15 @@ header {
 }
 
 
-
-// Services page
+// services and testimonial section styles
 
 #services,
 #testimonial-section {
     display:flex;
     justify-content: center;
 }
+
+// Services page styles
 
 .packages {
     max-width:100%;
@@ -216,19 +218,19 @@ header {
  
 }
 
-
-
-
 .package .description {
     max-width:400px;
     margin-right:$line-global;
 }
 
-
-
 .package-heading {
     position:relative;
     max-width:550px;
+     h3{
+
+        font-size:$sub-header-size;
+    }
+    
 }
 
 .package-heading div {
@@ -240,10 +242,6 @@ header {
     bottom:40px
 }
 
-.package-heading h3{
-
-    font-size:24px;
-}
 
 .sticker.long {
     top:-100px;
@@ -272,6 +270,8 @@ header {
         
     }
 }
+
+// prices with crossed out css
 
 .package-heading h3,
 .package-heading .price {
@@ -321,7 +321,9 @@ ul {
         line-height: $line-height-global;
         }
 }
-// tessimonial page
+
+
+// testimonial page
 
 
 .testimonials {
@@ -419,7 +421,7 @@ form {
     cursor:pointer;
 }
 
-
+// Laptop screen styles
 
     @media (max-width:1260px) {
         
@@ -434,7 +436,7 @@ form {
     }
 
 
-
+// smaller screen styles
 
     @media(max-width:760px) {
 
@@ -466,6 +468,8 @@ form {
     
 
     }
+
+    // Large Phone styles
 
     @media(max-width:550px) {
         .packages {
@@ -624,6 +628,9 @@ form {
              
     }
 
+    // Regular Phone styles
+    
+
     @media(max-width:425px) {
       
         .packages {
@@ -653,6 +660,8 @@ form {
                 width:360px;
             }
     }
+
+    // Smaller phone styles
 
     @media(max-width:370px ) {
 
