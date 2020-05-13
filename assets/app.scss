@@ -22,6 +22,9 @@ $green: #2DFF76;
 $header-font: 'League Gothic', Helvetica, sans-serif;
 $body-font: sans-serif;
 
+$large-menu-size:64px;
+$menu-size:48px;
+
 $header-size:36px;
 $sub-header-size:24px;
 $body-font-size: 16px;
@@ -265,7 +268,7 @@ header {
         top:10px;
         text-align:center;
         left:22px;
-        top:17px;
+        top:18px;
         position: absolute;
         
     }
@@ -581,7 +584,7 @@ form {
                     font-family:$header-font;
                     font-weight:100;
                     font-style: italic;
-                    font-size:64px;
+                    font-size:$large-menu-size;
                     color:$white;
                 }
             }
@@ -640,12 +643,13 @@ form {
             }
         }
         .sticker {
-            top:-100px;
-                right:20px;
+            top:-$line-global*5;
+                right:$line-global;
             
         }
         .sticker.long {
             top:-$line-global;
+            right:$line-global;
 
         }
         .package {
@@ -657,13 +661,13 @@ form {
             }
         }
             .package-heading {
-                width:360px;
+                width:350px;
             }
     }
 
     // Smaller phone styles
 
-    @media(max-width:370px ) {
+    @media(max-width:376px ) {
 
         .package.four {
             margin-top:$line-global*4;
@@ -672,7 +676,7 @@ form {
         .package {
         
             .package-heading{
-                max-width:238px;
+                max-width:220px;
 
                 }
                 .short {
@@ -695,12 +699,12 @@ form {
 
     }
     .sticker {
-        right:-20px;
+        right:-$line-global;
     }
 
     .sticker.long {
-        top:-80px;
-        right:-30px;
+        top:-$line-global*4;
+        right:-$line-global*1.5;
 
     }
       .container {
@@ -716,7 +720,7 @@ form {
     .mobile-nav {
         div {
             a {
-                font-size:48px;
+                font-size:$menu-size;
             }
         }
     }
