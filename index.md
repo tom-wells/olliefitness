@@ -7,7 +7,7 @@ description: "Ollie is a qualified personal trainer based in Maidstone, Kent. He
 ---
 <p>29 . 05 . 2020</p>
 
-Its time for a fresh start. If you are looking to improve your physical, mental and social health now is no better time.
+It's time for a fresh start. If you are looking to improve your physical, mental and social health now is no better time.
 
 To help you begin I am offering an introductory discount on all my new services for new and existing clients.
 
