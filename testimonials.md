@@ -1,5 +1,5 @@
 ---
-title: ollie.fitness - Testimonials
+title: Testimonials
 subtitle: Testimonials
 layout: test
 permalink: /testimonials/

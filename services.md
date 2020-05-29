@@ -1,5 +1,5 @@
 ---
-title: ollie.fitness - Services
+title: Services
 subtitle: "Services"
 layout: wide
 permalink: /services/

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ollie.fitness - About
+title: About
 subtitle: About
 permalink: /about/
 description: "Ollie is known as an energetic and enthusiastic trainer focused on helping his clients lead happy and  healthy lives.  As a qualified personal trainer based in Maidstone, Kent, Ollie caters newcomers to professional athletes. Devising bespoke training to suit there individual goals. Be it sport specific,  gaining muscle, losing weight or improving mobility."
@@ -9,7 +9,9 @@ description: "Ollie is known as an energetic and enthusiastic trainer focused on
 
 
 
-Ollie is known as an energetic and enthusiastic trainer focused on helping his clients lead happy and  healthy lives.  As a qualified personal trainer based in Maidstone, Kent, Ollie caters newcomers to professional athletes. Devising bespoke training to suit there individual goals. Be it sport specific,  gaining muscle, losing weight or improving mobility.
+Ollie is known as an energetic and enthusiastic trainer focused on helping his clients lead happy and  healthy lives.
+
+As a qualified personal trainer based in Maidstone, Kent, Ollie caters newcomers to professional athletes. Devising bespoke training to suit there individual goals. Be it sport specific,  gaining muscle, losing weight or improving mobility.
 
 Being passionate about sport and fitness since he was young. Ollie grew up playing football semi-professionally alongside practicing different martial arts. Working in the health and Fitness industry he became a personal trainer, realizing the positive impact he could make to peoples lives.
 

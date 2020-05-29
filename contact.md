@@ -1,6 +1,6 @@
 ---
 
-title: ollie.fitness - Contact
+title: Contact
 subtitle: Contact
 layout: default
 permalink: /contact/
@@ -58,5 +58,5 @@ action="https://formspree.io/meqroqbd" method="POST">
 <input type="submit" class="submit" value="Send">
 </form>
 
-Built by TW
+<a class="designer" href="https://tomwells.design">Built by TW</a>
 <div>

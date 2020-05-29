@@ -1,25 +1,21 @@
 ---
 
 layout: default
-subtitle: "Covid-19"
+subtitle: "Welcome"
 title: ollie.fitness
-description: "Based in Maidstone, Kent. Ollie is a qualified personal trainer offering online coaching and personal training to help his clients conquer they’re fitness dreams."
+description: "Ollie is a qualified personal trainer based in Maidstone, Kent. He offers online coaching, 1-2-1 personal training and group workouts to help his clients conquer they’re fitness dreams."
 ---
-<p>11 . 05 . 2020</p>
+<p>29 . 05 . 2020</p>
 
-At this time exercise and focusing on our health has never been so important. As we stay home to keep ourselves and our loved ones safe from the virus. We can start to neglect our physical health and in turn our mental health suffers. 
+Its time for a fresh start. If you are looking to improve your physical, mental and social health now is no better time.
 
-That is why during this time of the pandemic I am offering discount prices to new and existing clients until <strong>30th June.</strong>
+To help you begin I am offering an introductory discount on all my new services for new and existing clients.
 
-Launching today I am also offering personal online sessions to help you keep motivated from home. Whether you have equipement or not we can develop home workouts that would match the intensity of the gym. 
+Whether you want guidance working out from home or a 1-2-1 session in person. We can develop workouts that would match the intensity of the gym and help you reach your goals.
 
-During this time you can also support me by buying a voucher for a in person 1-2-1 session. Vouchers will be valid for 12 months from the day the UK goverment declares lockdown is lifted in some form that can allow small groups to meet.
+Currently all in-person training is to be taken at outdoor locations in the Maidstone area. Group sessions of up to 5 people will be available from 1st of June.
 
-Although there is alot of unknowns right now about when things will open. I understand peoples anxiety about going back into the gym in the near future.
-I want my clients to feel as comfortable and supported as possible. This means I am considering workouts outside in local public parks or private open spaces once measures are lifted to do so.
+For more information on services or bookings, please contact me via phone, email or social media.
 
-For more infomation on online 1-2-1 training or booking vouchers, please contact me via phone, email or social media"
-<br>
-<br>
 <br>
 <a class="intouch" href="/contact">Get in Touch</a>
