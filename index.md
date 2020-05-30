@@ -3,7 +3,7 @@
 layout: default
 subtitle: "Welcome"
 title: ollie.fitness
-description: "Ollie is a qualified personal trainer based in Maidstone, Kent. He offers online coaching, 1-2-1 personal training and group workouts to help his clients conquer they’re fitness dreams."
+description: "Ollie is a qualified personal trainer based in Maidstone, Kent. He offers online coaching, 1-2-1 personal training and group workouts to help his clients conquer their fitness dreams."
 ---
 <p>29 . 05 . 2020</p>
 
