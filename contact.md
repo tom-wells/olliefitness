@@ -58,5 +58,5 @@ action="https://formspree.io/meqroqbd" method="POST">
 <input type="submit" class="submit" value="Send">
 </form>
 
-<a class="designer" href="https://tomwells.netlify.app/">Built by TW</a>
+<a class="designer" href="https://tomwells.design/">Built by TW</a>
 <div>
