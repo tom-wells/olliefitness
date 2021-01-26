@@ -7,7 +7,7 @@ description: "Ollie is known as an energetic and enthusiastic trainer focused on
 
 ---
 
-
+![ollie's profile photo](/assets/img/ollie-profile.jpeg)
 
 Ollie is known as an energetic and enthusiastic trainer focused on helping his clients lead happy and  healthy lives.
 
